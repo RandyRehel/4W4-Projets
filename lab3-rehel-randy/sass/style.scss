@@ -1,0 +1,27 @@
+/*
+   theme name: Lab3 Rehel Randy
+*/
+
+//Variables
+@import "variables/couleurs";
+@import "variables/typo";
+@import "variables/structure";
+
+
+//elements
+@import "elements/links";
+
+/*Box-sizing*/
+@import "initialisation/box-sizing";
+
+/*Normalize*/
+@import "initialisation/normalize";
+
+//Composants
+@import "composants/header";
+@import "composants/footer";
+@import "composants/contenu";
+@import "composants/navigation";
+
+/*Layout*/
+@import "layout/layout";

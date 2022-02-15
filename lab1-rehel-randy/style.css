@@ -1,0 +1,34 @@
+/*
+   theme name: Lab1 Rehel Randy
+*/
+h1{
+    font-size: 2rem;
+    color: goldenrod;
+    font-family:sans-serif;
+}
+
+h2{
+    color: whitesmoke;
+    flex-direction: row;
+    flex-basis: 1;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+html{
+   background: #1b1b1b;
+}
+
+/*
+
+Une classe sur laquelle je m'amusais pour essayer de mettre les articles dans des boites 
+
+.articles{
+    border: grey;
+    border-radius: 25%, 25%, 25%, 25%;
+}
+*/
