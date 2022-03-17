@@ -16,9 +16,18 @@ wp_nav_menu(array(
                     <div class="footer__searchform">
                     <?php get_search_form();?>
                     </div>
-                    <section class="footer__vid"></section>
-                    <section class="footer__img"></section>
-                    <section class="footer__rickroll"></section>
+                    <section class="footer__divers">
+                    <section class="footer__vid"> 
+                    <video width="90%" height="90%"  controls>
+                        <source src="http://127.0.0.1:8080/edsa-school/2022-4w4-3/wp-content/uploads/2022/03/Get_Rich_Quick_Meme.mp4" type="video/mp4"> 
+                    </video> 
+                    </section>
+                    <section class="footer__img">
+                        <img src="http://127.0.0.1:8080/edsa-school/2022-4w4-3/wp-content/uploads/2022/03/Rehel_Randy_Remise_Exercice1_VoirLeLienEnCommentaire-scaled.jpg" width="90%" height="90%" alt="Jeff Bezos"> 
+                    </section>
+
+                    <section class="footer__rickroll"> <a href="https://www.latlmes.com/breaking/your-sensational-news-headline-here-1">Cliquez-ici pour gagner des millions!!</a>  </section>
+                    </section>
 </footer>
 
 </body>
