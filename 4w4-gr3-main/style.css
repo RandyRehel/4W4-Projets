@@ -613,6 +613,32 @@ COMPOSANTES
   text-align: center;
 }
 
+.footer__img {
+  padding: 5%;
+  background-color: #d48d08;
+}
+
+.footer__rickroll {
+  padding: 5%;
+  background-color: #d48d08;
+  font-size: 10vh;
+  text-align: center;
+}
+
+.footer__rickroll a {
+  color: White;
+  text-decoration: none;
+}
+
+.footer__rickroll a__:hover {
+  color: Orange;
+}
+
+.footer__vid {
+  padding: 5%;
+  background-color: #d48d08;
+}
+
 .cours__contenu {
   display: flex;
 }
@@ -717,5 +743,23 @@ theme name: Lab 2 Lemieux Florence
     grid-template-columns: 300px auto;
     grid-template-areas: "header header" "sidebar main" "footer footer";
   }
+}
+
+.footer__divers {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "img rickroll vid";
+}
+
+.footer__img {
+  grid-area: img;
+}
+
+.footer__rickroll {
+  grid-area: rickroll;
+}
+
+.footer__vid {
+  grid-area: vid;
 }
 /*# sourceMappingURL=style.css.map */

@@ -53,3 +53,24 @@ theme name: Lab 2 Lemieux Florence
 }
 
 
+.footer__divers{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "img rickroll vid"
+        ;
+}
+
+.footer{
+    &__img{
+        grid-area: img;
+    }
+
+    &__rickroll{
+        grid-area: rickroll;
+    }
+
+    &__vid{
+        grid-area: vid;
+    }
+}
