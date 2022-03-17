@@ -29,12 +29,15 @@
     margin:0;
     padding : 0;
     a{
+        
         display : block;
         text-decoration: none;
         padding : 4px;
         background-color: $color__background-link;
+        color: $color__link;
         &:hover {
             background-color: $color__background-link-hover;
+            color: $color__link-hover;
         }
     }
 }
