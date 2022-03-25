@@ -603,6 +603,18 @@ COMPOSANTES
   box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 10px #828482, 0px 0px 0px 12px #B2B5B2, 0px 0px 0px 20px #DADDDA, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
+.site__footer__colonne .footer__adresse {
+  text-align: center;
+}
+
+.site__footer__colonne .footer__article {
+  text-align: center;
+}
+
+.site__footer__colonne .footer__lien {
+  text-align: center;
+}
+
 .site__footer__ligne {
   display: flex;
   flex-direction: column;
