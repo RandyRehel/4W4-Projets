@@ -14,8 +14,28 @@
     }
 }
 
+@keyframes ApparitionTexte{
+    0% {
+        transform : translateX(100vh);  
+      }
+      100% {
+          transform : translateX(0);  
+      }
+}
 
 
+.anim1{
+    animation: ApparitionTexte 1s forwards;
+}
+.anim2{
+    animation: ApparitionTexte 2s forwards;
+}
+.anim3{
+    animation: ApparitionTexte 3s forwards;
+}
+.anim4{
+    animation: ApparitionTexte 4s forwards;
+}
 
 .animation{
     display : flex;
