@@ -7,6 +7,7 @@
   &__colonne { //.site__footer__colonne
       display :flex;
       justify-content: space-between;
+      text-align: center;
       section { //  .site__footer__colonne  section
         flex : 0 0 30%;
         border : 3px solid black;
@@ -34,10 +35,10 @@
       }
       
     }
-    .footer__auteur {}
-    .footer__description {}
-    .footer__recherche {}
-    .footer__copyright {}
+    .footer__auteur {text-align: center}
+    .footer__description {text-align: center}
+    .footer__recherche {text-align: center}
+    .footer__copyright {text-align: center}
 
   }
 
@@ -76,5 +77,9 @@
   text-align: center;
 }
 
-     
-  
+#block-12{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}

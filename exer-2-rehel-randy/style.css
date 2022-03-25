@@ -595,6 +595,7 @@ COMPOSANTES
 .site__footer__colonne {
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 .site__footer__colonne section {
@@ -622,6 +623,22 @@ COMPOSANTES
 }
 
 .site__footer__ligne section p {
+  text-align: center;
+}
+
+.site__footer__ligne .footer__auteur {
+  text-align: center;
+}
+
+.site__footer__ligne .footer__description {
+  text-align: center;
+}
+
+.site__footer__ligne .footer__recherche {
+  text-align: center;
+}
+
+.site__footer__ligne .footer__copyright {
   text-align: center;
 }
 
@@ -654,6 +671,12 @@ COMPOSANTES
 .footer__author {
   color: Whitesmoke;
   text-align: center;
+}
+
+#block-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cours__contenu {
