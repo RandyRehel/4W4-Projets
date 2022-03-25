@@ -398,6 +398,15 @@ COMPOSANTES
   color: Whitesmoke;
 }
 
+.site a {
+  color: White;
+  text-decoration: none;
+}
+
+.site a__:hover {
+  color: Orange;
+}
+
 .site__main {
   padding: 10px 15px;
   background-color: #2f2f2f;
@@ -579,7 +588,29 @@ COMPOSANTES
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: Orange;
+  color: Whitesmoke;
   padding: 15px;
+}
+
+.site__footer__colonne {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site__footer__colonne section {
+  flex: 0 0 30%;
+  border: 3px solid black;
+  box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 10px #828482, 0px 0px 0px 12px #B2B5B2, 0px 0px 0px 20px #DADDDA, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.site__footer__ligne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site__footer__ligne section p {
+  text-align: center;
 }
 
 .site__footer__menu__ul {
@@ -611,32 +642,6 @@ COMPOSANTES
 .footer__author {
   color: Whitesmoke;
   text-align: center;
-}
-
-.footer__img {
-  padding: 5%;
-  background-color: #d48d08;
-}
-
-.footer__rickroll {
-  padding: 5%;
-  background-color: #d48d08;
-  font-size: 10vh;
-  text-align: center;
-}
-
-.footer__rickroll a {
-  color: White;
-  text-decoration: none;
-}
-
-.footer__rickroll a__:hover {
-  color: Orange;
-}
-
-.footer__vid {
-  padding: 5%;
-  background-color: #d48d08;
 }
 
 .cours__contenu {

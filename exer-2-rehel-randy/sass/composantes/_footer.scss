@@ -1,7 +1,41 @@
 .site__footer {
-    font-family: $font__titre;
-    background-color: $color__background-footer;
-    padding: 15px;
+  font-family: $font__titre;
+  background-color: $color__background-footer;
+  color: $color__font-footer;
+  padding: 15px;
+
+  &__colonne { //.site__footer__colonne
+      display :flex;
+      justify-content: space-between;
+      section { //  .site__footer__colonne  section
+        flex : 0 0 30%;
+        border : 3px solid black;
+        -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 20px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0); 
+        box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 10px #828482, 0px 0px 0px 12px #B2B5B2, 0px 0px 0px 20px #DADDDA, 5px 5px 15px 5px rgba(0,0,0,0);;
+      }
+      .footer__adresse{ //.site__footer__colonne .footer__adresse 
+       }
+      .footer__article { }
+      .footer__lien { }
+  }
+
+  &__ligne { //.site__footer__ligne
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    section {
+      p{
+        text-align: center;
+      }
+      
+    }
+    .footer__auteur {}
+    .footer__description {}
+    .footer__recherche {}
+    .footer__copyright {}
+
+  }
+
 
     &__menu{ // .site__footer__menu
 
@@ -37,30 +71,5 @@
   text-align: center;
 }
 
-.footer{
-    &__img{
-        padding: 5%;
-        background-color:rgb(212, 141, 8); 
-    }
-
-    &__rickroll{
-      padding: 5%;
-      background-color:rgb(212, 141, 8);
-      font-size: 10vh;
-      text-align: center;
-      
-        a{
-          color: $color__link;
-          text-decoration: none;  
-            &__:hover{
-              color: $color__link-hover;
-            }
-        }
-
-    }
-
-    &__vid{
-      padding: 5%;
-      background-color:rgb(212, 141, 8);
-    }
-}
+     
+  

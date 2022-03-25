@@ -10,3 +10,5 @@ Développement des modules:
  - links.scss
 
  Continuation d'animations + implementation de mixins
+
+ Implementation de sidebars dynamiques pour le footer! Encore plus d'animations!

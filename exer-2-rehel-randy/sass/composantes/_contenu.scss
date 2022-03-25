@@ -1,5 +1,12 @@
 .site{
     color: $color__font-default;
+    a{
+        color: $color__link;
+        text-decoration: none;  
+          &__:hover{
+            color: $color__link-hover;
+          }
+    }
 }
 .site__main {
     padding: 10px 15px;
