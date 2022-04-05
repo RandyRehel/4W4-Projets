@@ -1,0 +1,66 @@
+@keyframes rotation360 {
+    0%{
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+@mixin anim360{
+    &:hover{
+        animation: rotation360 2s forwards;
+    }
+}
+
+@keyframes ApparitionTexte{
+    0% {
+        transform : translateX(100vh);  
+      }
+      100% {
+          transform : translateX(0);  
+      }
+}
+
+
+.anim1{
+    animation: ApparitionTexte 1s forwards;
+}
+.anim2{
+    animation: ApparitionTexte 2s forwards;
+}
+.anim3{
+    animation: ApparitionTexte 3s forwards;
+}
+.anim4{
+    animation: ApparitionTexte 4s forwards;
+}
+
+.animation{
+    display : flex;
+    justify-content: space-between;
+
+    &__bloc{
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        width : 100px;
+        height : 100px;
+        border-radius: 50%;
+        background-color: orange;
+        color : #2f2f2f;
+        font-size: 3rem;
+        animation : anim-entete 1s forwards;
+        @include anim360();
+    }
+}
+
+@keyframes anim-entete {
+    0% {
+      transform : translateY(-100vh);  
+    }
+    100% {
+        transform : translateY(0);  
+    }
+}
