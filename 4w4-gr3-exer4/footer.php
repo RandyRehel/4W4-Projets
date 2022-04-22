@@ -21,7 +21,7 @@
          <?php get_sidebar("footer_ligne_1");  ?>
         </section>
         <section class="footer__auteur">
-            <p>Auteur : Eddy Martin</p>
+            <p>Auteur : Randy Rehel</p>
         </section>
         <section class="footer__menu">
         <?php    
@@ -39,8 +39,11 @@
         </section>
     </div>
 </footer>
-<div class="modal">
-    Ceci est test vérifiant le fonctionnement d'une boîte modale
+<div class="boite__modale">
+    <button class="boite__modale__ferme">X</button>
+    <article class="boite_modale__text">
+        Ceci est test vérifiant le fonctionnement d'une boîte modale
+    </article>
 </div>
 </body>
 <?php wp_footer(); ?>
