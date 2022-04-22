@@ -2,7 +2,7 @@
     
     let boite__modale = document.querySelector('.boite__modale')
     let boite__modale__fermer = document.querySelector('.boite__modale__fermer')
-
+    let boite__modale__texte = document.querySelector('.boite__modale__texte')
     let cours__desc__suite = document.querySelectorAll('.cours__desc__suite')
     console.log('cours__desc__suite = ' + cours__desc__suite.length)
 
@@ -10,6 +10,8 @@
         bouton.addEventListener('mousedown', function(){
             console.log(this.tagName)
             boite__modale.classList.add('boite__modale__ouvrir')
+            console.log(this.parentNode.parentNode.children[0].innerHTML)
+            boite__modale__texte.innerHTML = this.parentNode.parentNode.children[0].innerHTML
             //cours__desc__suite(boite__modale.classList)
         })
     }

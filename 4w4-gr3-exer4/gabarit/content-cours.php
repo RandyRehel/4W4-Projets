@@ -19,6 +19,10 @@
 
     ?>
 
+    <code class="cours__desc__complet" style="display: none;">
+        <?= $descCours ?>
+</code>
+
     <?php the_post_thumbnail("thumbnail"); ?>
     <h3 class="cours__titre">
         <a href="<?php echo get_permalink(); ?>">
