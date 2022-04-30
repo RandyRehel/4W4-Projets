@@ -1,0 +1,27 @@
+.recherche {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-areas: "input bouton";
+  justify-content: right;
+}
+
+.recherche__input {
+  grid-area: input;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.recherche__bouton {
+  grid-area: bouton;
+  right: 0;
+  width: 23px;
+  height: 23px;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=recherche.css.map */

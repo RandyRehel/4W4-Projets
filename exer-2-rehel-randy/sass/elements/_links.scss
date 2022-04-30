@@ -1,0 +1,83 @@
+@mixin links($color,
+			$color--visited,
+			$color--hover){
+			
+
+a {
+	color: $color;
+
+	&:visited {
+		color: $color--visited;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color--hover;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+}
+/**************************************************/
+
+
+@mixin links__menu ( 	$color,
+				$color--visited,
+				$color--hover,
+				$background,
+				$background--visited,
+				$background--hover){
+
+			
+
+a {
+	color: $color;
+
+	&:visited {
+		color: $color--visited;
+		background-color: $background--visited;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color--hover;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+				}
+
+
+.site__footer .menu-item a{
+	@include links__menu  ( $color__link__footer,
+						  $color__link__footer-visited,
+						  $color__link__footer-hover,
+						  $background__link__footer,
+						  $background__link__footer-visited,
+						  $background__link__footer-hover)
+}
+
+.menu-principal .menu-item a{
+	@include links__menu	($color__link__menu-principal,
+							$color__link__menu-principal-visited,
+							$color__link__menu-principal-hover,
+							$background__link__menu-principal,
+							$background__link__menu-principal-visited,
+							$background__link__menu-principal-hover)
+}
