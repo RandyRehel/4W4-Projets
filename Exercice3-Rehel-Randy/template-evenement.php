@@ -19,7 +19,6 @@
           <p><?php the_field('endroit'); ?></p>
           <p>Date de l'événement: <?php the_field('date'); ?></p>  
           <p>L'heure: <?php the_field('heure'); ?></p>
-          <p>L'heure: <?php the_field('heure'); ?></p>
           <h3>Résumé de l'événement</h3>
           <p><?php the_field('resume'); ?></p>
           <h3>Organisateur de l'événement</h3>
