@@ -31,7 +31,9 @@
         </section>
     </div>
 </footer>
-
+<div class="modal">
+    Ceci est test vérifiant le fonctionnement d'une boîte modale
+</div>
 </body>
 <?php wp_footer(); ?>
 </html>
