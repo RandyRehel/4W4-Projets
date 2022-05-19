@@ -98,12 +98,16 @@ theme name: Lab 2 Lemieux Florence
               border-radius: 40px;
             a{
               display : flex;
+              text-decoration: none;
+              font-size: 1.2em;
+              font-weight: bold;
               align-items: center;
               padding : 3px;
               display: grid;
               grid-template-columns: 1fr;
-              grid-template-rows: repeat(2, 1fr);
+              grid-template-rows: repeat(4, 1fr);
               text-align: center;
+              justify-items: center;
 
               hr{
                 margin-top: 0.1em;
@@ -115,14 +119,69 @@ theme name: Lab 2 Lemieux Florence
                 background-color:#000000;
                 height: 0.2em;
               }
-
-              a:hover{
+              .menu-item-icone{
+                height: 75px;
+                width: 75px;
+              }  
+              &:hover{
                 .menu-item-icone{
-                    
+                    animation: vibrations 0.3s linear infinite both;
                 }
               }
             }
             
        }
     }
+}
+
+
+    
+
+
+@keyframes vibrations{
+    0% {
+      
+              transform: translate(0);
+    }
+    20% {
+      
+              transform: translate(2px, -2px);
+    }
+    40% {
+      
+              transform: translate(2px, 2px);
+    }
+    60% {
+      
+              transform: translate(-2px, 2px);
+    }
+    80% {
+     
+              transform: translate(-2px, -2px);
+    }
+    100% {
+      
+              transform: translate(0);
+    }
+  }
+
+.dev_Web{
+   .menu-item-icone{
+       background-image:url(https://s2.svgbox.net/files.svg?ic=css);
+   } 
+}
+.dev_Jeu{
+    .menu-item-icone{
+        background-image:url(https://s2.svgbox.net/files.svg?ic=reactjs);
+    } 
+}
+.dev_Vid{
+    .menu-item-icone{
+        background-image:url(https://s2.svgbox.net/files.svg?ic=html);
+    } 
+}
+.dev_3d{
+    .menu-item-icone{
+        background-image:url(https://s2.svgbox.net/files.svg?ic=git);
+    } 
 }

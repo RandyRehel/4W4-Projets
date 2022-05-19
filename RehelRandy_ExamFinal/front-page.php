@@ -8,7 +8,7 @@
     /* --------------------------------------------- menu accueil */
     wp_nav_menu(array("menu"=>"menu_accueil",
                               "container_class"=>"site__footer__menu",
-                              "menu_class"=>"site__footer__menu__ul")); ?>
+                              "menu_class"=>"site__footer__menu__ul",)); ?>
     
    <?php 
    /* --------------------------------------------- menu ateliers */
