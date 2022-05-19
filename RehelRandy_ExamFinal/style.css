@@ -1162,4 +1162,37 @@ theme name: Lab 2 Lemieux Florence
     grid-template-areas: "sidebar" "header" "main" "footer";
   }
 }
+
+.ateliers__menu__ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.ateliers__menu__ul .menu-item {
+  margin: 10px 5px;
+  border: 11px outset rgba(28, 110, 164, 0.35);
+  border-radius: 40px;
+}
+
+.ateliers__menu__ul .menu-item a {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+}
+
+.ateliers__menu__ul .menu-item a hr {
+  margin-top: 0.1em;
+  margin-bottom: 5em;
+  border: 0;
+  clear: both;
+  display: block;
+  width: 90%;
+  background-color: #000000;
+  height: 0.2em;
+}
 /*# sourceMappingURL=style.css.map */
