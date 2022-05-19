@@ -55,6 +55,7 @@ add_action("wp_enqueue_scripts", "cidw_4w4_enqueue");
 function cidw_4w4_register_nav_menu(){
     register_nav_menus( array(
         'menu_principal' => __( 'Menu principal', 'cidw_4w4' ),
+        'menu_atelier' => __('Menu atelier', 'cidw_4w4'),
         'menu_footer'  => __( 'Menu footer', 'cidw_4w4' ),
         'footer_colonne'  => __( 'Menu footer colonne', 'cidw_4w4' ),
         'menu_cours'  => __( 'Menu cours', 'cidw_4w4' ),

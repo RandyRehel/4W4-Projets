@@ -15,7 +15,7 @@
           <section class="atelier__resume">
                <?php the_field('resume'); ?>
           </section>
-          <p class="animateur">
+          <p class="atelier__animateur">
           <?php the_field('animateur'); ?>
           </p>
           <p class="atelier__dateDebut">
