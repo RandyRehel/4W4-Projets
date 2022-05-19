@@ -2,29 +2,32 @@
 theme name: Lab 2 Lemieux Florence
 */
 
-
-figcaption{
-    text-align: center;
-}
-
 .site {
     //background-color: rgb(122, 176, 207);
     background-color: $color__background-body;
     font-family: $font__main;
-    &__main{
-        img{
-            border: solid orange 2em;
-            -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(221, 145, 22, 0.879); 
-            box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(240, 152, 10, 0.79);
-        }
-    }
+    position : relative;
+}
+.home::after {
+    content : "";
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    top : 0;
+    bottom:0;
+    left:0;
+    right : 0;
+    background-color: $color__background-body-clip;
+    
+    clip-path: polygon(95% 0, 100% 0, 100% 100%, 76% 100%);
+    z-index: -1;
 }
 
 
 
 .site__header{
     grid-area: header;  
-    background-color: $color__background-header;
+    background-color: rgba($color__background-header,.5);
 }
 
 .site__barre{
@@ -34,7 +37,9 @@ figcaption{
 
 .site__main{
     grid-area: main;
-    background-color: $color__background-main;
+    background-color: rgba($color__background-main,.5);
+    display : flex;
+    flex-direction: column;
 }
 
 .site__footer{
@@ -44,7 +49,7 @@ figcaption{
 
 .site {
 	display: grid;
-    gap : 10px;
+    //gap : 10px;
 	grid-template-columns: auto;
 	grid-template-areas:
 		"sidebar"
@@ -62,29 +67,19 @@ figcaption{
             "sidebar main"
             "footer footer";
     }
+
+    .home {
+        display: grid;
+        //gap : 10px;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "sidebar"
+            "header"
+            "main"
+            "footer";
+    }
+
+
 }
 
 
-.footer__divers{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "img rickroll vid"
-        ;
-
-        align-content: center;
-}
-
-.footer{
-    &__img{
-        grid-area: img;
-    }
-
-    &__rickroll{
-        grid-area: rickroll;
-    }
-
-    &__vid{
-        grid-area: vid;
-    }
-}

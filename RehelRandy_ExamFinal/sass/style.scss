@@ -1,0 +1,55 @@
+/*
+theme name: ExamFinal - Randy Rehel
+Author: Randy Rehel
+Author URI: https://github.com/RandyRehel/
+Description: Site réalisé pour l'examen final du cours 4W4 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: cidw-4w4
+
+*/
+/* ---------------------------------------------------------
+VARIABLES
+--------------------------------------------------------- */
+@import "variables/couleurs";
+@import "variables/typo";
+@import "variables/structure";
+
+/* ---------------------------------------------------------
+INITIALISATION
+--------------------------------------------------------- */
+@import "initialisation/normalize";
+@import "initialisation/box-sizing";
+
+/* ---------------------------------------------------------
+ÉLÉMENTS
+--------------------------------------------------------- */
+@import "elements/links";
+@import "elements/balises";
+
+/* ---------------------------------------------------------
+COMPOSANTES
+--------------------------------------------------------- */
+@import "composantes/contenu";
+@import "composantes/header";
+@import "composantes/navigation";
+@import "composantes/navigation_accueil";
+@import "composantes/navigation_categorie_cours";
+@import "composantes/footer";
+@import "composantes/404";
+@import "composantes/evenement";
+@import "composantes/boite_modale";
+@import "composantes/galerie";
+@import "composantes/recherche";
+@import "composantes/accueil";
+/* ---------------------------------------------------------
+ANIMATION
+--------------------------------------------------------- */
+@import "animation/entete";
+@import "animation/burger";
+
+/* ---------------------------------------------------------
+LAYOUT
+--------------------------------------------------------- */
+@import "layout/layout";
