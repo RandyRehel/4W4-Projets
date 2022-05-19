@@ -12,31 +12,36 @@
      <article class="atelier">
           <?php if (have_posts()): the_post(); ?>
           <h1><?php the_title() ?></h1>
+          <h2> Description de l'atelier </h2>
+          <p class="atelier__animateur"> L'animateur de l'atelier:
+          <?php the_field('animateur'); ?>
+          </p>
+
+          <p class="atelier__local"> L'atelier sera donne au local:
+          <?php the_field('local'); ?>
           <section class="atelier__resume">
                <?php the_field('resume'); ?>
           </section>
-          <p class="atelier__animateur">
-          <?php the_field('animateur'); ?>
-          </p>
-          <p class="atelier__dateDebut">
+          <h2> Date et heures de l'atelier </h2>
+          
+          <p class="atelier__dateDebut"> Date de debut:
           <?php the_field('dateDebut'); ?>
-          <p class="atelier__dateFin">
+          <p class="atelier__dateFin"> Date de fin:
           <?php the_field('dateFin'); ?>
           </p>
-          <p class="atelier__horaire">
+          <p class="atelier__horaire"> La formation se donnera:
           <?php the_field('horaire'); ?>
           </p>
-          <p class="atelier__heureDebut">
+          <p class="atelier__heure"> L'horaire est de 
           <?php the_field('heureDebut'); ?>
-          </p>
-          <p class="atelier__heureFin">
+          a
           <?php the_field('heureFin'); ?>
           </p>  
-          <p class="atelier__duree">
+          <p class="atelier__duree"> Duree de chacune des seances est de:
           <?php the_field('duree'); ?>
+          heures
           </p>
-          <p class="atelier__local">
-          <?php the_field('local'); ?>
+          
           </p>
           <?php 
           $image = get_field('image');
