@@ -890,6 +890,15 @@ COMPOSANTES
   color: #fecf00;
 }
 
+.evenement {
+  text-align: center;
+  font-weight: bold;
+}
+
+.evenement__resume {
+  background-color: #dfbb2b;
+}
+
 /* ---------------------------------------------------- FOOTER */
 .site__footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
