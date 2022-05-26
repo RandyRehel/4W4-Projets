@@ -163,6 +163,17 @@ function cidw_4w4_pre_get_posts(WP_Query $query)
 }
 
 
+/**
+  * Extraire le slug de la catégorie de l'url 
+  * @param array $tableau : liste des slug de catégorie de la page
+  * @return string $cle : le slug de la catégorie  
+  */
+  function trouve_la_categorie($tableau){
+    foreach($tableau as $cle){
+        if (is_category($cle)) return($cle);
+    }
+  }
+
 
 function cidw_4w4_query_vars($params){
 // var_dump($params);
