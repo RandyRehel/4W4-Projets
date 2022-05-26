@@ -1016,6 +1016,98 @@ COMPOSANTES
 /* ---------------------------------------------------------
 ANIMATION
 --------------------------------------------------------- */
+.site__main h2 {
+  text-align: center;
+}
+
+.site__header__menu {
+  display: flex;
+  height: 25%;
+}
+
+.site__header__menu__ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.site__header__menu__ul ::first-line {
+  font-size: 1.5em;
+}
+
+.site__header__menu__ul .menu-item {
+  margin: 10px 5px;
+  border: 10px outset rgba(28, 110, 164, 0.35);
+  border-radius: 40px;
+  width: 80%;
+}
+
+.site__header__menu__ul .menu-item a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  align-items: center;
+  padding: 3px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  text-align: center;
+  justify-items: center;
+  height: 100%;
+}
+
+.site__header__menu__ul .menu-item a hr {
+  margin-top: 0.05em;
+  border: 0;
+  clear: both;
+  display: block;
+  width: 90%;
+  background-color: #000000;
+  height: 0.2em;
+}
+
+.site__header__menu__ul .menu-item a .menu-item-icone {
+  height: 75px;
+  width: 75px;
+}
+
+.event__Accueil .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/hero-outline.svg?ic=light-bulb&color=e7a108);
+}
+
+.event__Decembre .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/materialui.svg?ic=sensor_door&color=e7a108);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.event__Projet .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/hero-outline.svg?ic=clipboard-check&color=e7a108);
+}
+
+.event__Fevrier .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/materialui.svg?ic=sensor_door&color=e7a108);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accueil__Cours .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/hero-solid.svg?ic=book-open&color=e7a108);
+}
+
+.accueil__Aide .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/hero-solid.svg?ic=chat-alt-2&color=e7a108);
+}
+
+.accueil__Profs .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/hero-solid.svg?ic=academic-cap&color=e7a108);
+}
+
+.accueil__VieEtudiante .menu-item-icone {
+  background-image: url(https://s2.svgbox.net/hero-solid.svg?ic=office-building&color=e7a108);
+}
+
 .animation {
   display: flex;
   justify-content: space-between;
