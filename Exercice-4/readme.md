@@ -8,7 +8,9 @@ Développement des deux menus de blocs de navigations:
 
 Développement d'une galerie d'images de la vie etudiante
 
-Développement de la grille de cours amelioree
+Développement de la grille de cours amelioree avec des boites modales
+
+Design plus beau a venir dans le TP2
  
 
 Pour modifier readme.md

@@ -21,7 +21,7 @@
          <?php get_sidebar("footer_ligne_1");  ?>
         </section>
         <section class="footer__auteur">
-            <p>Auteur : Eddy Martin</p>
+            <p>Auteur : Randy Rehel</p>
         </section>
         <section class="footer__menu">
         <?php    
