@@ -13,14 +13,21 @@
       display : flex;
       justify-content: flex-start;
       align-items : center;
+
     }
-    .custom-logo-link, .header__titre, .header__description{
+    .header__titre, .header__description{
       padding : 10px;
     }
-    .custom-logo-link {}
+    .custom-logo-link {
+      border: 9px double #EDA413;
+      margin: 10px;
+    }
     .header__titre {
       font-size: clamp(3rem, 4vw, 8rem);
       font-family: $font__titre;
+      a{
+        text-decoration: none;
+      }
     }
     .header__description {
       font-size: clamp(2rem, 2vw, 3rem);
