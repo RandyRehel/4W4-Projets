@@ -25,6 +25,7 @@
     .header__titre {
       font-size: clamp(3rem, 4vw, 8rem);
       font-family: $font__titre;
+      color: $color__font-header;
       a{
         text-decoration: none;
       }
@@ -32,6 +33,7 @@
     .header__description {
       font-size: clamp(2rem, 2vw, 3rem);
       font-family: $font__main;
+      color: $color__font-header
     }
   }
 

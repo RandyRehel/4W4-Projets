@@ -361,7 +361,7 @@ LAYOUT
 theme name: Lab 2 Lemieux Florence
 */
 .site {
-  background-color: rgba(218, 224, 241, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: "Roboto", sans-serif;
   max-width: 100vw;
 }
@@ -382,7 +382,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__header {
   grid-area: header;
-  background-color: rgba(111, 174, 226, 0.5);
+  background-color: rgba(47, 47, 47, 0.5);
 }
 
 .site__barre {
@@ -392,7 +392,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__main {
   grid-area: main;
-  background-color: rgba(213, 230, 241, 0.5);
+  background-color: rgba(29, 28, 28, 0.5);
 }
 
 .site__footer {
@@ -427,11 +427,11 @@ theme name: Lab 2 Lemieux Florence
 /* ---------------------------------- */
 /* -----------------------------------*/
 a {
-  color: #7b5647;
+  color: #ffbb00;
 }
 
 a:visited {
-  color: #5c4033;
+  color: #ffd561;
 }
 
 a:hover, a:focus, a:active {
@@ -471,7 +471,7 @@ a:hover, a:active {
 }
 
 .header__titre a:visited {
-  color: #7a49d4;
+  color: rgba(255, 166, 0, 0.89);
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
@@ -583,7 +583,7 @@ COMPOSANTES
 --------------------------------------------------------- */
 .site__main {
   padding: 10px 15px;
-  background-color: #d5e6f1;
+  background-color: #1d1c1c;
   border-radius: 5px;
   box-shadow: #39443e 1px -1px 10px;
 }
@@ -675,8 +675,8 @@ COMPOSANTES
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6faee2;
-  color: #d6d8e4;
+  background-color: #2f2f2f;
+  color: white;
   padding-left: 10px;
 }
 
@@ -704,6 +704,7 @@ COMPOSANTES
 .site__header .header__titre {
   font-size: clamp(3rem, 4vw, 8rem);
   font-family: "LemonJelly", Arial, sans-serif;
+  color: white;
 }
 
 .site__header .header__titre a {
@@ -713,6 +714,7 @@ COMPOSANTES
 .site__header .header__description {
   font-size: clamp(2rem, 2vw, 3rem);
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .util {
