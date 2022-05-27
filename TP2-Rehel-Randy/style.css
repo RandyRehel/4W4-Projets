@@ -1055,6 +1055,32 @@ Galerie gutenberg de la page d'accueil
   }
 }
 
+.site__footer__colonne .footer__adresse, .site__footer__colonne .footer__article, .site__footer__colonne .footer__lien {
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 0px 0px 10px 10px rgba(255, 255, 255, 0.63), 0px 0px 10px 10px #ffa600, 0px 0px 10px 10px rgba(255, 255, 255, 0.8);
+}
+
+.site__footer__colonne .footer__adresse {
+  background-color: black;
+}
+
+.site__footer__colonne .footer__adresse caption {
+  color: orange;
+  font-size: 1.5em;
+}
+
+.site__footer__colonne .footer__adresse th {
+  color: orange;
+  background-color: black;
+}
+
+.site__footer__colonne .footer__adresse td {
+  color: whitesmoke;
+}
+
+.site__footer__colonne .footer__adresse nav span {
+  font-size: 2em;
+}
+
 .site__footer__colonne .footer__article .sidebar {
   height: 100%;
 }
@@ -1087,6 +1113,11 @@ Galerie gutenberg de la page d'accueil
   font-size: large;
 }
 
+.site__footer__colonne .footer__lien {
+  text-align: center;
+  background-color: black;
+}
+
 .site__footer__ligne {
   display: flex;
   flex-direction: column;
@@ -1095,6 +1126,35 @@ Galerie gutenberg de la page d'accueil
 
 .site__footer__ligne section p {
   text-align: center;
+}
+
+.site__footer__ligne .footer__description ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+}
+
+.site__footer__ligne .footer__description ul li {
+  border: 4px inset orange;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  font-size: large;
+}
+
+.site__footer__ligne .footer_sociaux ul {
+  justify-content: space-around;
+}
+
+.site__footer__ligne .footer_sociaux ul li svg {
+  width: 50px;
+  height: 50px;
 }
 
 .footer__menu__nav__ul {
