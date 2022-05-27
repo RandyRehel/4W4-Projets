@@ -19,9 +19,11 @@
            }
             .menu-item {
                 margin : 10px 5px;
-                border: 10px outset rgba(28,110,164,0.35);
+                border: 10px outset rgb(255, 255, 255);
                 border-radius: 40px;
                 width: 80%;
+                background-color: #000000;
+                box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 0px 0px 10px 10px rgba(255,255,255,0.63), 0px 0px 10px 10px rgb(255, 166, 0), 0px 0px 10px 10px rgba(255,255,255,0.8);
                 a{
                     display : flex;
                     text-decoration: none;
@@ -41,7 +43,7 @@
                       clear:both;
                       display:block;
                       width: 90%;               
-                      background-color:#000000;
+                      background-color: $color__link-visited;
                       height: 0.2em;
                     }
                     .menu-item-icone{

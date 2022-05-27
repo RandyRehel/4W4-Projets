@@ -2,9 +2,12 @@
 $color__background-body : black;
 $color__background-body-clip : hsl(204, 78%, 65%);
 $color__background-main : rgb(29, 28, 28);
-$color__background-cours : hsl(209, 100%, 91%);
+$color__background-cours :  rgba(255, 166, 0, 0.89);
+$color__link-cours: hsl(0, 0%, 0%);
+$color__link-cours-hover: rgb(255, 255, 255);
+$color__link-cours-visited: #2f2f2f;
 $color__background-header : #2f2f2f;
-$color__background-barre : hsl(200, 78%, 9%);
+$color__background-barre : hsl(0, 0%, 0%);
 $color__background-footer : hsl(225, 78%, 13%);
 $color__background-link : hsl(227, 22%, 84%);
 $color__background-link-hover : hsl(236, 64%, 44%);
@@ -12,7 +15,7 @@ $color__background-link-hover : hsl(236, 64%, 44%);
 /* ---------------- LIENS */
 $color__link : hsl(44, 100%, 50%);
 $color__link-hover : hsl(0, 0%, 100%);
-$color__link-visited : hsl(44, 100%, 69%);
+$color__link-visited : hsl(44, 98%, 64%);
 /* ---------------- LIENS FOOTER */
 $color__link__footer : hsl(0, 91%, 50%);
 $color__link__footer-hover : hsl(123, 80%, 49%);
@@ -40,24 +43,24 @@ $background__link__menu__principal-hover : #ddd;
 
 
 /* ---------------- FONT */
-$color__font-header : rgb(255, 255, 255);
+$color__font-header : rgba(255, 255, 255, 0.822);
 $color__font-main :rgb(219, 223, 243);
 $color__font-barre : rgb(208, 216, 240);
 $color__font-footer : rgb(226, 231, 248);
 
 
 /* ----------------------- couleur bouton menu-catégorie cours */
-$color__bouton__color : rgb(238, 215, 11);
-$color__bouton__background : rgb(68, 124, 187); 
-$color__bouton__color--hover : rgb(236, 229, 127);
-$color__bouton__background--hover :  rgb(53, 82, 161); 
-$color__bouton__color--current: rgb(254, 207, 0);
-$color__bouton__background--current: rgb(8, 24, 67);
+$color__bouton__color : rgba(255, 166, 0, 0.89);
+$color__bouton__background : grey; 
+$color__bouton__color--hover : black;
+$color__bouton__background--hover :  rgba(255, 166, 0, 0.89);
+$color__bouton__color--current: rgba(255, 166, 0, 0.89);
+$color__bouton__background--current: black;
 
 /* --------------------------  couleur titre */
-$color__titre__principal : rgb(7, 4, 51);
-$color__titre__secondaire : rgb(38, 35, 78);
-$color__titre__ternaire : rgb(35, 33, 73);
+$color__titre__principal : rgba(255, 255, 255, 0.842);
+$color__titre__secondaire : rgb(204, 204, 204);
+$color__titre__ternaire : rgb(110, 110, 110);
 
 /* -----------------------------------------  carte d'accueil */
 $couleur__carte__evenement: rgb(255, 204, 0);
