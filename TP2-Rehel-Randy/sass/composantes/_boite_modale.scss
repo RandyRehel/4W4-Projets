@@ -1,6 +1,9 @@
-.cours__desc__suite{
+button{
     background-color: black;
     color: white;
+    &:hover{
+    color: orange;
+    }
 }
 
 .boite__modale, .boite__carrousel{
@@ -33,6 +36,10 @@
     display: flex;
     align-items: center;
     text-align: center;
+    background-color: #000000;
+    border: inset 5px whitesmoke;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 15px 24px rgba(0,0,0,0.93), inset 0px 0px 25px 18px rgb(255, 153, 0);
+    padding: 5%;
 }
 
 .boite__carrousel{
@@ -62,7 +69,7 @@
             width: 20px;
             height: 20px;
             &:checked {
-                background-color: black;
+               
             }
         }
     }
