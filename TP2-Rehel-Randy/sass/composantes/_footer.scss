@@ -1,4 +1,9 @@
-
+.sidebar{
+  font-family: $font__main;
+  a{
+    text-decoration: none;
+  }
+}
 .site__footer {
     font-family: $font__titre;
     background-color: $color__background-footer;

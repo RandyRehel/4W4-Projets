@@ -1,4 +1,34 @@
+.site__barre{
+    .menu-item{
+        margin-top: 4%;
+       color: $color__link;
+        background-color: $color__background-barre;
+
+        &:hover{
+            color: $color__background-barre ;
+            background-color: $color__link;
+        }
+        &:visited{
+
+            color: $color__link;
+
+            &:hover{
+                color: $color__background-barre ;
+                background-color: $color__link;
+            }
+        }
+    }
+}
+
 .cours {
+
+    &__nbre-heure{
+        color: $color__link-cours;
+    }
+
+    &__sigle{
+        color: $color__font-header;
+    }
 
     &__titre{
         a{

@@ -467,7 +467,7 @@ a:hover, a:active {
 }
 
 .header__titre a {
-  color: #f06a6a;
+  color: orange;
 }
 
 .header__titre a:visited {
@@ -475,7 +475,7 @@ a:hover, a:active {
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
-  color: #8be58f;
+  color: whitesmoke;
 }
 
 .header__titre a:focus {
@@ -1016,6 +1016,14 @@ Galerie gutenberg de la page d'accueil
 }
 
 /* ---------------------------------------------------- FOOTER */
+.sidebar {
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
 .site__footer {
   font-family: "LemonJelly", Arial, sans-serif;
   background-color: #07143b;
@@ -1082,6 +1090,34 @@ Galerie gutenberg de la page d'accueil
 
 .footer__menu__nav__ul .menu-item a:hover svg {
   color: #19e123;
+}
+
+.site__barre .menu-item {
+  margin-top: 4%;
+  color: #ffbb00;
+  background-color: black;
+}
+
+.site__barre .menu-item:hover {
+  color: black;
+  background-color: #ffbb00;
+}
+
+.site__barre .menu-item:visited {
+  color: #ffbb00;
+}
+
+.site__barre .menu-item:visited:hover {
+  color: black;
+  background-color: #ffbb00;
+}
+
+.cours__nbre-heure {
+  color: black;
+}
+
+.cours__sigle {
+  color: rgba(255, 255, 255, 0.822);
 }
 
 .cours__titre a {
