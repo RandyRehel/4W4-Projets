@@ -8,7 +8,7 @@ $color__link-cours-hover: rgb(255, 255, 255);
 $color__link-cours-visited: #2f2f2f;
 $color__background-header : #2f2f2f;
 $color__background-barre : hsl(0, 0%, 0%);
-$color__background-footer : hsl(225, 78%, 13%);
+$color__background-footer : rgb(66, 65, 61);
 $color__background-link : hsl(227, 22%, 84%);
 $color__background-link-hover : hsl(236, 64%, 44%);
 
@@ -17,17 +17,17 @@ $color__link : hsl(44, 100%, 50%);
 $color__link-hover : hsl(0, 0%, 100%);
 $color__link-visited : hsl(44, 98%, 64%);
 /* ---------------- LIENS FOOTER */
-$color__link__footer : hsl(0, 91%, 50%);
-$color__link__footer-hover : hsl(123, 80%, 49%);
-$color__link__footer-visited : hsl(231, 84%, 50%);
+$color__link__footer : orange;
+$color__link__footer-hover : whitesmoke;
+$color__link__footer-visited : rgba(255, 166, 0, 0.89);
 /* ---------------- LIENS HEADER titre principal du site */
 $color__link__header : orange;
 $color__link__header-hover : whitesmoke;
 $color__link__header-visited : rgba(255, 166, 0, 0.89);
 /* ----------------------- couleur menu footer */
 $color__link__footer__menu : #fff;
-$color__link__footer__menu-visited : #ddd;
-$color__link__footer__menu-hover: #f00;
+$color__link__footer__menu-visited : black;
+$color__link__footer__menu-hover: rgba(255, 166, 0, 0.89);
 $background__link__footer__menu : #444;
 $background__link__footer__menu-visited : #555; 
 $background__link__footer__menu-hover: #222;

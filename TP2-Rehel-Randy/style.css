@@ -397,7 +397,7 @@ theme name: Lab 2 Lemieux Florence
 
 .site__footer {
   grid-area: footer;
-  background-color: #07143b;
+  background-color: #42413d;
 }
 
 /* configuration mobile */
@@ -447,15 +447,15 @@ a:hover, a:active {
 }
 
 .site__footer a {
-  color: #f40b0b;
+  color: orange;
 }
 
 .site__footer a:visited {
-  color: #1435eb;
+  color: rgba(255, 166, 0, 0.89);
 }
 
 .site__footer a:hover, .site__footer a:focus, .site__footer a:active {
-  color: #19e123;
+  color: whitesmoke;
 }
 
 .site__footer a:focus {
@@ -492,12 +492,12 @@ a:hover, a:active {
 }
 
 .site__footer .menu-item a:visited {
-  color: #ddd;
+  color: black;
   background-color: #555;
 }
 
 .site__footer .menu-item a:hover, .site__footer .menu-item a:focus, .site__footer .menu-item a:active {
-  color: #f00;
+  color: rgba(255, 166, 0, 0.89);
   background-color: #222;
 }
 
@@ -1024,9 +1024,13 @@ Galerie gutenberg de la page d'accueil
   text-decoration: none;
 }
 
+.footer__menu__nav {
+  font-family: "Roboto", sans-serif;
+}
+
 .site__footer {
   font-family: "LemonJelly", Arial, sans-serif;
-  background-color: #07143b;
+  background-color: #42413d;
   color: #e2e7f8;
   padding: 15px;
 }
@@ -1085,11 +1089,11 @@ Galerie gutenberg de la page d'accueil
 }
 
 .footer__menu__nav__ul .menu-item a svg {
-  color: #f40b0b;
+  color: orange;
 }
 
 .footer__menu__nav__ul .menu-item a:hover svg {
-  color: #19e123;
+  color: whitesmoke;
 }
 
 .site__barre .menu-item {
@@ -1173,6 +1177,10 @@ Galerie gutenberg de la page d'accueil
   align-items: center;
   justify-content: center;
   border: none;
+}
+
+.recherche__bouton svg {
+  color: #999;
 }
 
 .cidw_recherche .wp-block-search__input {
